@@ -6,10 +6,22 @@ import Title from '@/components/Title';
 const Home: React.FC<PageProps> = () => (
   <main>
     <Title />
-    <p>A TypeScript starter for Gatsby. Great for advanced users.</p>
+    <p>Making spaces more fresh + functional</p>
     <p>
-      Follow me on Twitter (
-      <a href="https://twitter.com/jpedroschmitz">@jpedroschmitz</a>)
+      Facebook:{' '}
+      <a href="https://m.facebook.com/Spaces-by-Haley-105707784852717/">
+        @spacesbyhaley
+      </a>
+    </p>
+    <p>
+      Instagram:{' '}
+      <a href="https://instagram.com/spacesbyhaley?igshid=c9t7e3t17opm/">
+        @spacesbyhaley
+      </a>
+    </p>
+    <p>
+      Contact:{' '}
+      <a href="mailto:haley@spacesbyhaley.com">haley@spacesbyhaley.com</a>
     </p>
   </main>
 );
