@@ -21,7 +21,7 @@ const Home: React.FC<PageProps> = () => (
     </p>
     <p>
       Contact:{' '}
-      <a href="mailto:haley@spacesbyhaley.com">haley@spacesbyhaley.com</a>
+      <a href="mailto:haleyledwitch@gmail.com">haleyledwitch@gmail.com</a>
     </p>
   </main>
 );
