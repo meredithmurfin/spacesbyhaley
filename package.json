@@ -15,14 +15,13 @@
     "typescript"
   ],
   "scripts": {
-    "clean": "gatsby clean",
+    "clean": "rm -rf public && rm -rf .cache && gatsby clean",
     "start": "gatsby develop",
     "build": "gatsby build",
     "build:pp": "gatsby build --prefix-paths",
     "develop": "yarn develop",
     "deploy": "yarn build && gh-pages -d public",
     "serve": "gatsby serve",
-    "clean": "rm -rf public && rm -rf .cache && gatsby clean",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "lint:styles": "stylelint src/**/*.css",
     "lint:md": "remark content/",
@@ -34,11 +33,21 @@
     "eject": "gatsby eject"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^4.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "antd": "^4.12.2",
     "gatsby": "^2.31.1",
     "gatsby-cli": "^2.19.0",
+    "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-stylelint": "^3.2.0",
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "17.0.1",
+    "sass": "^1.32.6",
+    "stylelint-scss": "^3.18.0",
+    "stylelint-webpack-plugin": "^2.1.1",
     "tsconfig-paths-webpack-plugin": "3.3.0",
     "typescript": "^4.1.3"
   },
