@@ -1,0 +1,14 @@
+{
+	"extends": "stylelint-config-standard",
+	"plugins": ["stylelint-scss"],
+	"rules": {
+		"color-hex-case": "upper",
+		"indentation": [
+			4,
+			{
+				"message": "Please use 4 spaces for indentation.",
+				"severity": "warning"
+			}
+		]
+	},
+}

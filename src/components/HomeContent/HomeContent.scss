@@ -1,0 +1,420 @@
+@import '~@fontsource/montserrat/500.css';
+@import '~@fontsource/montserrat/400.css';
+@import '~@fontsource/montserrat/200-italic.css';
+
+///* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.home-content-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 16px;
+		padding-bottom: 22px;
+	}
+	.flex-container-1 {
+		width: 280px;
+		text-align: center;
+	}
+	.flex-container-2 {
+		width: 280px;
+		padding-top: 18px;
+	}
+	.flex-container-3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 280px;
+		padding: 16px 4px 0px 4px;
+	}
+	.home-content-image {
+		width: 200px;
+		height: auto;
+	}
+	.text-body-container {
+		color: #2e2727;
+	}
+	.text-body {
+		font-family: 'Montserrat';
+	}
+	.home-content-text-body-introduction {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: center;
+	}
+	.home-content-text-body-conclusion {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: center;
+	}
+	.home-content-text-body-list-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-bottom: 4px;
+	}
+	.home-content-text-body-list-title {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		padding-top: 6px;
+		padding-bottom: 2px;
+		text-align: center;
+	}
+	.home-content-text-body-list-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.home-content-text-body-list-icon {
+		padding-top: 6px;
+	}
+	.home-content-text-body-list-text {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		padding-top: 2px;
+		padding-left: 4px;
+	}
+	.home-content-text-body-inquiry-question {
+		font-size: 14px;
+		font-weight: 200;
+		font-style: italic;
+		text-align: center;
+	}
+	.home-content-text-body-inquiry-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding-top: 4px;
+		color: #2e2727;
+		text-decoration: none;
+	}
+	.home-content-text-body-inquiry-item-container:hover {
+		color: #d4b0b0;
+	}
+	.home-content-text-body-inquiry-icon {
+		width: 15px;
+		height: auto;
+	}
+	.home-content-text-body-inquiry-link-text {
+		font-size: 18px;
+		font-weight: 500;
+		padding-right: 4px;
+	}
+}
+
+///* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+	.home-content-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 16px;
+		padding-bottom: 22px;
+	}
+	.flex-container-1 {
+		width: 280px;
+		text-align: center;
+	}
+	.flex-container-2 {
+		width: 280px;
+		padding-top: 18px;
+	}
+	.flex-container-3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 280px;
+		padding: 16px 4px 0px 4px;
+	}
+	.home-content-image {
+		width: 200px;
+		height: auto;
+	}
+	.text-body-container {
+		color: #2e2727;
+	}
+	.text-body {
+		font-family: 'Montserrat';
+	}
+	.home-content-text-body-introduction {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: center;
+	}
+	.home-content-text-body-conclusion {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		text-align: center;
+	}
+	.home-content-text-body-list-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-bottom: 4px;
+	}
+	.home-content-text-body-list-title {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		padding-top: 6px;
+		padding-bottom: 2px;
+		text-align: center;
+	}
+	.home-content-text-body-list-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.home-content-text-body-list-icon {
+		padding-top: 6px;
+	}
+	.home-content-text-body-list-text {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 24px;
+		padding-top: 2px;
+		padding-left: 4px;
+	}
+	.home-content-text-body-inquiry-question {
+		font-size: 14px;
+		font-weight: 200;
+		font-style: italic;
+		text-align: center;
+	}
+	.home-content-text-body-inquiry-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding-top: 4px;
+		color: #2e2727;
+		text-decoration: none;
+	}
+	.home-content-text-body-inquiry-item-container:hover {
+		color: #d4b0b0;
+	}
+	.home-content-text-body-inquiry-icon {
+		width: 15px;
+		height: auto;
+	}
+	.home-content-text-body-inquiry-link-text {
+		font-size: 18px;
+		font-weight: 500;
+		padding-right: 4px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.home-content-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	.flex-container-2 {
+		padding-left: 30px;
+		width: 300px;
+	}
+	.flex-container-3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		max-width: 580px;
+		padding: 30px 60px 0px 60px;
+	}
+	.home-content-image {
+		width: 300px;
+		height: auto;
+	}
+	.text-body-container {
+		color: #2e2727;
+	}
+	.text-body {
+		font-family: 'Montserrat';
+	}
+	.home-content-text-body-introduction {
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px;
+		text-align: center;
+	}
+	.home-content-text-body-conclusion {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.home-content-text-body-list-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-bottom: 10px;
+	}
+	.home-content-text-body-list-title {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		padding-bottom: 10px;
+	}
+	.home-content-text-body-list-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 0px 10px 0px 10px;
+	}
+	.home-content-text-body-list-icon {
+		padding-top: 10px;
+	}
+	.home-content-text-body-list-text {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 28px;
+		padding-top: 4px;
+		padding-left: 10px;
+	}
+	.home-content-text-body-inquiry-question-container {
+		padding-top: 30px;
+	}
+	.home-content-text-body-inquiry-question {
+		font-size: 24px;
+		font-weight: 200;
+		font-style: italic;
+		text-align: center;
+	}
+	.home-content-text-body-inquiry-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding-top: 5px;
+		color: #2e2727;
+		text-decoration: none;
+	}
+	.home-content-text-body-inquiry-item-container:hover {
+		color: #d4b0b0;
+	}
+	.home-content-text-body-inquiry-icon {
+		width: 30px;
+		height: auto;
+	}
+	.home-content-text-body-inquiry-link-text {
+		font-size: 28px;
+		font-weight: 500;
+		padding-right: 5px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.home-content-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+	.flex-container-2 {
+		display: flex;
+		flex-direction: column;
+		width: 500px;
+		padding-left: 30px;
+	}
+	.flex-container-3 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding-top: 30px;
+	}
+	.home-content-image {
+		max-width: 100%;
+		min-width: 350px;
+		height: auto;
+		max-height: 500px;
+	}
+	.text-body-container {
+		color: #2e2727;
+	}
+	.text-body {
+		font-family: 'Montserrat';
+	}
+	.home-content-text-body-introduction-container {
+		padding-bottom: 10px;
+	}
+	.home-content-text-body-conclusion-container {
+		padding-top: 10px;
+	}
+	.home-content-text-body-introduction,
+	.home-content-text-body-conclusion {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+	}
+	.home-content-text-body-list-title {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		padding-bottom: 10px;
+	}
+	.home-content-text-body-list-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 0px 10px 0px 10px;
+	}
+	.home-content-text-body-list-icon {
+		padding-top: 10px;
+	}
+	.home-content-text-body-list-text {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 28px;
+		padding-top: 4px;
+		padding-left: 10px;
+	}
+	.home-content-text-body-inquiry-question {
+		font-size: 24px;
+		font-weight: 200;
+		font-style: italic;
+	}
+	.home-content-text-body-inquiry-item-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding-top: 5px;
+		color: #2e2727;
+		text-decoration: none;
+	}
+	.home-content-text-body-inquiry-item-container:hover {
+		color: #d4b0b0;
+	}
+	.home-content-text-body-inquiry-icon {
+		width: 30px;
+		height: auto;
+	}
+	.home-content-text-body-inquiry-link-text {
+		font-size: 28px;
+		font-weight: 500;
+		padding-right: 5px;
+	}
+}

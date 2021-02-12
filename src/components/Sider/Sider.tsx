@@ -4,10 +4,10 @@ import './Sider.scss';
 
 const AntSider = Layout.Sider;
 
-export function Sider() {
-  return (
-    <>
-      <AntSider className="sider" />
-    </>
-  );
+export function Sider(): JSX.Element {
+	return (
+		<>
+			<AntSider className="sider" />
+		</>
+	);
 }
