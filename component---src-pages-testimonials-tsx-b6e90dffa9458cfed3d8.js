@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"8JAL":function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return l}));var c=t("q1tI"),u=t.n(c),r=t("Nhdc"),a=t("Z7Ry");function l(){return u.a.createElement(a.c,null,u.a.createElement(r.e,null))}}}]);
+//# sourceMappingURL=component---src-pages-testimonials-tsx-b6e90dffa9458cfed3d8.js.map
