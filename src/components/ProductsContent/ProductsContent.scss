@@ -1,0 +1,134 @@
+@import '~@fontsource/lato/300.css';
+@import '~@fontsource/montserrat/200-italic.css';
+
+///* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.products-content-container {
+		text-align: center;
+		width: auto;
+		height: 560px;
+	}
+	.products-coming-soon {
+		font-family: 'Montserrat';
+		font-size: 26px;
+		font-weight: 200;
+		font-style: italic;
+		padding-top: 12px;
+	}
+	.products-title-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 220px;
+		padding-bottom: 10px;
+	}
+	.products-title {
+		font-family: 'Lato';
+		font-size: 24px;
+		font-weight: 300;
+	}
+	.products-icon {
+		font-size: 18px;
+		fill: #d4b0b0;
+		padding: 8px;
+	}
+}
+
+///* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+	.products-content-container {
+		text-align: center;
+		width: auto;
+		height: 560px;
+	}
+	.products-coming-soon {
+		font-family: 'Montserrat';
+		font-size: 26px;
+		font-weight: 200;
+		font-style: italic;
+		padding-top: 12px;
+	}
+	.products-title-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 220px;
+		padding-bottom: 10px;
+	}
+	.products-title {
+		font-family: 'Lato';
+		font-size: 24px;
+		font-weight: 300;
+	}
+	.products-icon {
+		font-size: 18px;
+		fill: #d4b0b0;
+		padding: 8px;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.products-content-container {
+		text-align: center;
+		width: auto;
+		height: 600px;
+	}
+	.products-coming-soon {
+		font-family: 'Montserrat';
+		font-size: 48px;
+		font-weight: 200;
+		font-style: italic;
+		padding-top: 12px;
+	}
+	.products-title-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 220px;
+		padding-bottom: 10px;
+	}
+	.products-title {
+		font-family: 'Lato';
+		font-size: 44px;
+		font-weight: 300;
+	}
+	.products-icon {
+		font-size: 24px;
+		fill: #d4b0b0;
+		padding: 16px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.products-content-container {
+		text-align: center;
+		width: auto;
+		height: 673px;
+	}
+	.products-coming-soon {
+		font-family: 'Montserrat';
+		font-size: 48px;
+		font-weight: 200;
+		font-style: italic;
+		padding-top: 12px;
+	}
+	.products-title-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 260px;
+		padding-bottom: 10px;
+	}
+	.products-title {
+		font-family: 'Lato';
+		font-size: 44px;
+		font-weight: 300;
+	}
+	.products-icon {
+		font-size: 24px;
+		fill: #d4b0b0;
+		padding: 16px;
+	}
+}

@@ -9,8 +9,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding-top: 16px;
-		padding-bottom: 22px;
+		padding-top: 18px;
+		padding-bottom: 24px;
 	}
 	.flex-container-1 {
 		width: 280px;
@@ -19,17 +19,15 @@
 	.flex-container-2 {
 		width: 280px;
 		padding-top: 18px;
+		padding-bottom: 18px;
 	}
 	.flex-container-3 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 280px;
-		padding: 16px 4px 0px 4px;
-	}
-	.home-content-image {
-		width: 200px;
-		height: auto;
+		padding-left: 4px;
+		padding-right: 4px;
 	}
 	.text-body-container {
 		color: #2e2727;
@@ -37,11 +35,16 @@
 	.text-body {
 		font-family: 'Montserrat';
 	}
+	.home-content-image {
+		width: 200px;
+		height: auto;
+	}
 	.home-content-text-body-introduction {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
 		text-align: center;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-conclusion {
 		font-size: 14px;
@@ -53,15 +56,14 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		padding-bottom: 4px;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-list-title {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
-		padding-top: 6px;
-		padding-bottom: 2px;
 		text-align: center;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-list-item-container {
 		display: flex;
@@ -75,7 +77,7 @@
 	.home-content-text-body-list-text {
 		font-size: 14px;
 		font-weight: 400;
-		line-height: 24px;
+		line-height: 22px;
 		padding-top: 2px;
 		padding-left: 4px;
 	}
@@ -84,13 +86,13 @@
 		font-weight: 200;
 		font-style: italic;
 		text-align: center;
+		padding-bottom: 4px;
 	}
 	.home-content-text-body-inquiry-item-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		padding-top: 4px;
 		color: #2e2727;
 		text-decoration: none;
 	}
@@ -115,8 +117,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding-top: 16px;
-		padding-bottom: 22px;
+		padding-top: 18px;
+		padding-bottom: 24px;
 	}
 	.flex-container-1 {
 		width: 280px;
@@ -125,17 +127,15 @@
 	.flex-container-2 {
 		width: 280px;
 		padding-top: 18px;
+		padding-bottom: 18px;
 	}
 	.flex-container-3 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		width: 280px;
-		padding: 16px 4px 0px 4px;
-	}
-	.home-content-image {
-		width: 200px;
-		height: auto;
+		padding-left: 4px;
+		padding-right: 4px;
 	}
 	.text-body-container {
 		color: #2e2727;
@@ -143,11 +143,16 @@
 	.text-body {
 		font-family: 'Montserrat';
 	}
+	.home-content-image {
+		width: 200px;
+		height: auto;
+	}
 	.home-content-text-body-introduction {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
 		text-align: center;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-conclusion {
 		font-size: 14px;
@@ -159,15 +164,14 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		padding-bottom: 4px;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-list-title {
 		font-size: 14px;
 		font-weight: 400;
 		line-height: 22px;
-		padding-top: 6px;
-		padding-bottom: 2px;
 		text-align: center;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-list-item-container {
 		display: flex;
@@ -181,7 +185,7 @@
 	.home-content-text-body-list-text {
 		font-size: 14px;
 		font-weight: 400;
-		line-height: 24px;
+		line-height: 22px;
 		padding-top: 2px;
 		padding-left: 4px;
 	}
@@ -190,13 +194,13 @@
 		font-weight: 200;
 		font-style: italic;
 		text-align: center;
+		padding-bottom: 4px;
 	}
 	.home-content-text-body-inquiry-item-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		padding-top: 4px;
 		color: #2e2727;
 		text-decoration: none;
 	}
@@ -218,28 +222,23 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.home-content-container {
 		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		padding-top: 30px;
 		padding-bottom: 40px;
 	}
 	.flex-container-2 {
-		padding-left: 30px;
-		width: 300px;
+		width: 600px;
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 	.flex-container-3 {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		width: 100%;
-		max-width: 580px;
-		padding: 30px 60px 0px 60px;
-	}
-	.home-content-image {
-		width: 300px;
-		height: auto;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 	.text-body-container {
 		color: #2e2727;
@@ -247,22 +246,28 @@
 	.text-body {
 		font-family: 'Montserrat';
 	}
+	.home-content-image {
+		width: 340px;
+		height: auto;
+	}
 	.home-content-text-body-introduction {
-		font-size: 20px;
+		font-size: 18px;
 		font-weight: 400;
-		line-height: 28px;
+		line-height: 26px;
 		text-align: center;
+		padding-bottom: 12px;
 	}
 	.home-content-text-body-conclusion {
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 26px;
+		text-align: center;
 	}
 	.home-content-text-body-list-container {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		padding-bottom: 10px;
+		padding-bottom: 12px;
 	}
 	.home-content-text-body-list-title {
 		font-size: 18px;
@@ -275,7 +280,7 @@
 		flex-direction: row;
 		justify-content: flex-start;
 		align-items: flex-start;
-		padding: 0px 10px 0px 10px;
+		padding: 0px 16px 0px 16px;
 	}
 	.home-content-text-body-list-icon {
 		padding-top: 10px;
@@ -283,25 +288,22 @@
 	.home-content-text-body-list-text {
 		font-size: 18px;
 		font-weight: 400;
-		line-height: 28px;
+		line-height: 26px;
 		padding-top: 4px;
 		padding-left: 10px;
-	}
-	.home-content-text-body-inquiry-question-container {
-		padding-top: 30px;
 	}
 	.home-content-text-body-inquiry-question {
 		font-size: 24px;
 		font-weight: 200;
 		font-style: italic;
 		text-align: center;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-inquiry-item-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		padding-top: 5px;
 		color: #2e2727;
 		text-decoration: none;
 	}
@@ -344,29 +346,29 @@
 		width: 100%;
 		padding-top: 30px;
 	}
-	.home-content-image {
-		max-width: 100%;
-		min-width: 350px;
-		height: auto;
-		max-height: 500px;
-	}
 	.text-body-container {
 		color: #2e2727;
 	}
 	.text-body {
 		font-family: 'Montserrat';
 	}
-	.home-content-text-body-introduction-container {
-		padding-bottom: 10px;
+	.home-content-image {
+		height: 500px;
+		width: auto;
 	}
-	.home-content-text-body-conclusion-container {
-		padding-top: 10px;
+	.home-content-text-body-introduction {
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 26px;
+		padding-bottom: 12px;
 	}
-	.home-content-text-body-introduction,
 	.home-content-text-body-conclusion {
 		font-size: 18px;
 		font-weight: 400;
 		line-height: 26px;
+	}
+	.home-content-text-body-list-container {
+		padding-bottom: 12px;
 	}
 	.home-content-text-body-list-title {
 		font-size: 18px;
@@ -387,7 +389,7 @@
 	.home-content-text-body-list-text {
 		font-size: 18px;
 		font-weight: 400;
-		line-height: 28px;
+		line-height: 26px;
 		padding-top: 4px;
 		padding-left: 10px;
 	}
@@ -395,13 +397,13 @@
 		font-size: 24px;
 		font-weight: 200;
 		font-style: italic;
+		padding-bottom: 6px;
 	}
 	.home-content-text-body-inquiry-item-container {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
 		align-items: center;
-		padding-top: 5px;
 		color: #2e2727;
 		text-decoration: none;
 	}

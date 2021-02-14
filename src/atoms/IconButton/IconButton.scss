@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+	.button-icon {
+		font-size: 26px;
+		fill: #2e2727;
+		padding-left: 16px;
+	}
+	.button-icon:hover {
+		fill: white;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.button-icon {
+		font-size: 44px;
+		fill: #2e2727;
+		padding-left: 34px;
+	}
+	.button-icon:hover {
+		fill: white;
+	}
+}

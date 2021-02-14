@@ -1,5 +1,5 @@
-export { Footer } from './Footer/Footer';
-export { Header } from './Header/Header';
+export { AboutContent } from './AboutContent/AboutContent';
+export { BlogContent } from './BlogContent/BlogContent';
 export { HomeContent } from './HomeContent/HomeContent';
-export { Sider } from './Sider/Sider';
-export { Layout } from './Layout/Layout';
+export { ProductsContent } from './ProductsContent/ProductsContent';
+export { TestimonialsContent } from './TestimonialsContent/TestimonialsContent';
