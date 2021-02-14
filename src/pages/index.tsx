@@ -1,5 +1,6 @@
 import React from 'react';
-import { HomeContent, Layout } from '../components/index';
+import { HomeContent } from '../components/index';
+import { Layout } from '../molecules/index';
 
 export default function Home(): JSX.Element {
 	return (

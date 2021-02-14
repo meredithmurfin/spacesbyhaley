@@ -1,11 +1,24 @@
 @import '~@fontsource/montserrat/500.css';
 @import '~@fontsource/montserrat/100-italic.css';
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
 	.header-container {
-		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 		height: 80px;
 		background-color: #afc3c0;
+	}
+	.header-button-container {
+		width: 30%;
+	}
+	.header-logo-container {
+		width: 40%;
+		text-align: center;
+	}
+	.header-space-container {
+		width: 30%;
 	}
 	.header-title {
 		font-family: 'Montserrat';
@@ -21,37 +34,28 @@
 		width: 150px;
 		height: 80px;
 		object-fit: cover;
-	}
-}
-
-@media only screen and (min-width: 601px) and (max-width: 767px) {
-	.header-container {
 		text-align: center;
-		height: 80px;
-		background-color: #afc3c0;
-	}
-	.header-title {
-		font-family: 'Montserrat';
-		font-style: normal;
-		font-size: 36px;
-	}
-	.header-description {
-		font-family: 'Montserrat';
-		font-style: italic;
-		font-size: 18px;
-	}
-	.home-logo {
-		width: 150px;
-		height: 80px;
-		object-fit: cover;
 	}
 }
 
 @media only screen and (min-width: 768px) {
 	.header-container {
-		text-align: center;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
 		height: 160px;
 		background-color: #afc3c0;
+	}
+	.header-button-container {
+		width: 30%;
+	}
+	.header-logo-container {
+		width: 40%;
+		text-align: center;
+	}
+	.header-space-container {
+		width: 30%;
 	}
 	.header-title {
 		font-family: 'Montserrat';
@@ -67,5 +71,6 @@
 		width: 300px;
 		height: 160px;
 		object-fit: cover;
+		text-align: center;
 	}
 }
